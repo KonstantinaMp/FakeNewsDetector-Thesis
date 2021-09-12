@@ -80,9 +80,7 @@ if __name__ == '__main__':
             stream = tw.Stream(auth, streamListener)
             stream.filter(track=searchTerms, stall_warnings=True)
         except Exception as error:
-            print(error)
             api = tw.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
-            #time.sleep(15 * 60)
             continue
         except StopIteration:
             break
