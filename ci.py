@@ -16,7 +16,7 @@ from heapq_max import *
 
 rad = sys.argv[1]
 
-f = '/relationships/relationships true/1237937081214799872.txt'
+f = '/relationships/relationships true/1237937081214799872.txt'     #twitter ID --> 1237937081214799872
 
 def createGraph(file,name):
     nodes = {}
