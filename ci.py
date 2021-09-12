@@ -164,7 +164,6 @@ def main():
     radius = int(sys.argv[1])
     file = open(f)
     name=os.path.basename(f).split('.')[0]
-    print(name)
     graph, nodes, edges = createGraph(file,name)
     vector = collective_influence(graph,radius)
     signVector,moment_2 = compute_significance(vector)
