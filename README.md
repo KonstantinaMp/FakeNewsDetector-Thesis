@@ -18,6 +18,6 @@ To connect to the Twitter API, you need to request for connecting credentials. G
 - ci.py: Collective Go check 
 
 **Go check**
-https://arxiv.org/pdf/1603.08273.pdf
-https://www.geeksforgeeks.org/max-heap-in-python/
-https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.similarity.simrank_similarity.html 
+- https://arxiv.org/pdf/1603.08273.pdf
+- https://www.geeksforgeeks.org/max-heap-in-python/
+- https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.similarity.simrank_similarity.html 
