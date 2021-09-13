@@ -12,12 +12,12 @@ At first, I implemented Collective Influence, while at the same time I was scrap
 To connect to the Twitter API, you need to request for connecting credentials. Go check --> https://developer.twitter.com/en
 
 **Executing**
-twitterCrawler.py: to establish a connection to the Twitter Streaming API which means making a very long lived HTTP request and parsing the response incrementally. 
-findOriginTweet.py: to find the origin tweet of a story.
-relationships.py: The fetched data had to been cleaned and processed. All twitter posts indicate directly to each original tweet, so if the root tweet was avalaible, the story chain was created. Otherwise, the collected reactions were been discarded. To create the story chain we assume that the information flows from userA to userB if userB follows userA and userB reacts to the post after userA. Twitter allows to retrieve relationship data among users and each post has a timestamp.
-ci.py: Collective Go check --> https://arxiv.org/pdf/1603.08273.pdf
+- twitterCrawler.py: to establish a connection to the Twitter Streaming API which means making a very long lived HTTP request and parsing the response incrementally. 
+- findOriginTweet.py: to find the origin tweet of a story.
+- relationships.py: The fetched data had to been cleaned and processed. All twitter posts indicate directly to each original tweet, so if the root tweet was avalaible, the story chain was created. Otherwise, the collected reactions were been discarded. To create the story chain we assume that the information flows from userA to userB if userB follows userA and userB reacts to the post after userA. Twitter allows to retrieve relationship data among users and each post has a timestamp.
+- ci.py: Collective Go check 
 
-maxHeap.py: 
-For collective influence implementation I used the GeeksForGeeks maxHeap. Go check --> https://www.geeksforgeeks.org/max-heap-in-python/
-
-Except from my data collection, I used Twitter15 by Ma et al. (2018). For the experiments I also used the SimRank algorithm which mesaures the node similarity in a graph. Go check --> https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.similarity.simrank_similarity.html 
+**Go check**
+https://arxiv.org/pdf/1603.08273.pdf
+https://www.geeksforgeeks.org/max-heap-in-python/
+https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.similarity.simrank_similarity.html 
