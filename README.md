@@ -9,6 +9,7 @@ At first, I implemented Collective Influence, while at the same time I was scrap
 - NetworkX
 
 **Installing** 
+
 To connect to the Twitter API, you need to request for connecting credentials. Go check --> https://developer.twitter.com/en
 
 **Executing**
