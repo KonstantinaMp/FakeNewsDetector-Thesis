@@ -1,4 +1,4 @@
-**Algorithmic techniques for detecting structural properties of news dissemination on Twitter **
+**Algorithmic techniques for detecting structural properties of news dissemination on Twitter** 
 
 In my Diploma Thesis I worked on the identification of fake news in Twitter. I tried to create an innovative network – based technique to identify the credibility of news in early stages of propagation. My study consists of the algorithm implementation and the data processing.
 
